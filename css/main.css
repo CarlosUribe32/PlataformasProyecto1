@@ -1,0 +1,21 @@
+.imagen1{
+    width: 500px;
+}
+.homeLetras{
+    font-size: 20px;
+    margin-left: 20px;
+    font-style: italic;
+}
+.home{
+    margin-top: 5%
+}
+.tituloHome{
+    font-style: italic;
+}
+.cuerpo{
+    background-color: khaki;
+}
+.mainContainer{
+    width: 100%;
+    background-color: black;
+}
