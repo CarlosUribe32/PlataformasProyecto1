@@ -7,15 +7,19 @@
     font-style: italic;
 }
 .home{
-    margin-top: 5%
+    margin-top: 5%;
 }
 .tituloHome{
     font-style: italic;
 }
-.cuerpo{
-    background-color: khaki;
+a:hover{
+    color: aqua;
 }
 .mainContainer{
-    width: 100%;
-    background-color: black;
+    background-color: khaki;
+}
+
+.imagenGal{
+    width:200px;
+    height: 200px;
 }
