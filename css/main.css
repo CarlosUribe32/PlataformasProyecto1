@@ -29,3 +29,10 @@ a:hover{
 .imagenGal:hover{
     transform:scale(1.5);
 }
+
+.singIn{
+    margin-top: 10%;
+}
+.tableSing{
+    background-color: azure;
+}
