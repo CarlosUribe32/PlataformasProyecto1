@@ -36,3 +36,26 @@ a:hover{
 .tableSing{
     background-color: azure;
 }
+
+.profile{
+    width: 400px;
+    height: 400px;
+    margin-left: 2%;
+}
+.profile2{
+    width: 600px;
+    height:700px;
+}
+.tituloInfo{
+    font-size: 300%;
+    color: brown;
+    font-style: italic;
+}
+.textoInfo{
+    font-size: 120%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.concierto{
+    width:500px;
+    height:500px;
+}
