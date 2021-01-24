@@ -22,12 +22,23 @@ a:hover{
 .imagenGal{
     width:200px;
     height: 200px;
+    filter:alpha(opacity=70);
+    opacity: 1.0;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    color: transparent;
+    text-align: center;
 }
 .galeria{
     background-color: rgb(127, 255, 244);
 }
 .imagenGal:hover{
     transform:scale(1.5);
+    filter:alpha(opacity=100);
+    opacity: 0.7;
+    color: black;
 }
 
 .singIn{
