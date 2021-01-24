@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <script lenguage="JavaScript" SRC="js/localS.js">
+    </script>
     <title>Registro</title>
 </head>
 <body class=mainContainer>
@@ -22,7 +24,7 @@
                         Ingrese la contrase&ntilde;a:
                         <BR><input type="password" name="password">
                     <TR><TH colspan = 10>
-                        <input type="submit" name="submit" value="Registrarse">       
+                        <input type="submit" name="submit" value="Registrarse" onclick="guardarLocalS(this.form.email.value, this.form.userName.value, this.form.password.value);">       
                     </Form>
                 <TR>
             </table>
