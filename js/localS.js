@@ -46,3 +46,30 @@ function ingresarLocalS(username, pass){
         return;
     }
 }
+
+function recordar(username, email){
+    if(username == "" || username == null || email == "" || email == null){
+        alert("Ingrese todos los campos");
+        return;
+    }
+    var a = localStorage.getItem(username);
+    var b = localStorage.getItem(email);
+    if(a==null){
+        alert("Este usuario no esta registrado");
+        return;
+    }
+    else if(b == null){
+        alert("Este correo no esta registrado");
+        return;
+    }
+    else if (b != username){
+        alert("El correo y el username no concuerdan");
+        return;
+    }
+    else {
+        alert(username+", la contraseña es "+a);
+        window.open('','_parent','');
+        window.close();
+        window.open("login.html");
+    }
+}
