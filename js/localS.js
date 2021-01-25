@@ -17,9 +17,6 @@ function guardarLocalS(email, username, pass){
     localStorage.setItem(username, pass);
     alert(localStorage.getItem(email)+", tu registro se hizo correctamente");
 
-    window.open('','_parent','');
-    window.close();
-    window.open("login.html");
 }
 
 function ingresarLocalS(username, pass){
@@ -30,9 +27,6 @@ function ingresarLocalS(username, pass){
     var a = localStorage.getItem(username);
     if (a == null){
         alert("Aun no estas registrado");
-        window.open('','_parent','');
-        window.close();
-        window.open("registro.html");
         return;
     }
     else if(a==pass){

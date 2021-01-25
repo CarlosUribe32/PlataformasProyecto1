@@ -9,22 +9,19 @@
 </head>
 <body class=mainContainer>
     <a href="login.html">Volver al login</a>
-    <CENTER>
-        <div class=singIn>
-            <table border class=tableSing>
-                <TR><TH colspan=10><H1>Ingresar</H1>
-                <TR><TH colspan=10><Form method="GET">
-                        Ingrese el usuario:
-                        <BR><input type="text" name="userName" value="example">
-                    <TR><TH colspan=10>
-                        E ingrese el email:
-                        <BR><input type="email" name="email" value="alguien@example.com">
-                    <TR><TH colspan = 10>
-                        <input type="submit" name="submit" value="Recordar" onclick="recordar(this.form.userName.value, this.form.email.value);">       
-                    </Form>
-                <TR>
-            </table>
+        <div class = todo>
+            <main>
+                <div class = "contenedor__todo">
+                    <div class="contenedor__login-register">
+                        <form class=formulario__remember method="POST">
+                            <H2>Recordar</H2>
+                            <input type="text" name="userName" placeholder="Nombre Usuario">
+                            <input type="email" name="email" placeholder="Correo electronico">
+                            <input type="submit" name="submit" onclick="recordar(this.form.userName.value, this.form.email.value);">
+                        </form>
+                    </div>
+                </div>
+            </main>
         </div>
-    </CENTER>
 </body>
 </html>
