@@ -27,13 +27,13 @@
                 </div>
 
                 <div class ="contenedor__login-register">
-                    <form class=formulario__login method="POST">
+                    <form class=formulario__login method="dialog">
                         <H2>Iniciar sesi&oacute;n</H2>
                         <input type="text" name="userName" placeholder="Usuario">
                         <input type="password" name="password" placeholder="Contraseña">
-                        <input type="submit" name="submit" value="Ingresar" onclick="ingresarLocalS(this.form.userName.value, this.form.password.value);">
+                        <input type="submit" name="submit" value="Ingresar" onclick="ingresarLocalS(this.form.userName.value, this.form.password.value);" >
                     </form>
-                    <form class=formulario__register method="POST">
+                    <form class=formulario__register method="dialog">
                         <H2>Registrarse</H2>
                         <input type="email" name="email" placeholder="Correo Electronico">
                         <input type="text" name="userName" placeholder="Usuario">
