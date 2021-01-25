@@ -1,5 +1,16 @@
 .imagen1{
     width: 500px;
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+}
+.imagen1:hover {
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+    filter: grayscale(80%);
 }
 .homeLetras{
     font-size: 20px;
@@ -13,10 +24,11 @@
     font-style: italic;
 }
 a:hover{
+    transition: all 1s ease-in-out;
     color: aqua;
 }
 .mainContainer{
-    background-color: khaki;
+    background-color: #f0e68c;
 }
 
 .imagenGal{
@@ -34,12 +46,16 @@ a:hover{
 }
 .galeria{
     background-color: rgb(127, 255, 244);
+    transition: all 1s ease-in-out;
 }
 .imagenGal:hover{
     transform:scale(1.5);
     filter:alpha(opacity=100);
     opacity: 0.7;
     color: black;
+}
+.galeria:hover{
+    background-color: aquamarine;
 }
 
 .singIn{
@@ -70,4 +86,75 @@ a:hover{
 .concierto{
     width:500px;
     height:500px;
+}
+.todo{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+main{
+    width:100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+.contenedor__todo{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+.caja__trasera{
+    width:100%;
+    padding:10px 20px;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background-color: blue;
+}
+.caja__trasera div{
+    margin: 100px 40px;
+    color:aliceblue;
+    transition: all 500ms;
+}
+
+.caja__trasera div p,
+.caja__trasera div button{
+    margin-top: 30px;
+}
+.caja__trasera div h3{
+    font-weight: 400;
+    font-size: 26px;
+}
+.caja__trasera button{
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    transition: all 300ms;
+}
+.caja__trasera button:hover{
+    background: #fff;
+    color: #46A2FD;
+}
+.contenedor__login-register{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    top: -185px;
+}
+.contenedor__login-register form{
+    width: 100%;
+    padding: 80px 20px;
+    background: #fff;
+    position:absolute;
+    border-radius: 20px;
 }

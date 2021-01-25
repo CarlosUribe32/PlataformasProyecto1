@@ -9,23 +9,44 @@
 </head>
 <body class=mainContainer>
     <a href="index.html">Volver al home</a>
-    <CENTER>
-        <div class=singIn>
-            <table border class=tableSing>
-                <TR><TH colspan=10><H1>Ingresar</H1>
-                <TR><TH colspan=10><Form method="GET">
-                        Ingrese el usuario:
-                        <BR><input type="text" name="userName" value="example">
-                    <TR><TH colspan=10>
-                        Ingrese la contrase&ntilde;a:
-                        <BR><input type="password" name="password">
-                    <TR><TH colspan = 10>
-                        <input type="submit" name="submit" value="Ingresar" onclick="ingresarLocalS(this.form.userName.value, this.form.password.value);">       
-                    </Form>
-                <TR>
-            </table>
-            <BR><A href="recordar.html">Click ac&aacute; por si se te olvid&oacute; la contrase&ntilde;a</A>
-        </div>
-    </CENTER>
+    <div class = todo>
+        <main>
+            <div class = "contenedor__todo">
+
+            <div class = caja__trasera>
+                    <div class="caja__trasera-login">
+                        <h3>¿Ya tienes una cuenta?</h3>
+                        <p>Inicia sesi&oacute;n para entrar en la p&aacute;gina</p>
+                        <button id="btn__iniciar-sesion">Iniciar sesi&oacute;n</button>
+                    </div>
+                    <div class="caja__trasera-register">
+                        <h3>¿A&uacute;n no tienes una cuenta?</h3>
+                        <p>Reg&iacute;strate para entrar en la p&aacute;gina</p>
+                        <button id="btn__registrarse">Registrarse</button>
+                    </div>
+            </div>
+
+            <div class ="contenedor__login-register">
+                    <form class=formulario__login method="GET">
+                        <H2>Iniciar sesi&oacute;n</H2>
+                        <input type="text" name="userName" placeholder="Usuario">
+                        <input type="password" name="password" placeholder="Contraseña">
+                        <input type="submit" name="submit" value="Ingresar" onclick="ingresarLocalS(this.form.userName.value, this.form.password.value);">
+                    </form>
+                    <form class=formulario__register method="GET">
+                        <H2>Registrarse</H2>
+                        <input type="email" name="email" placeholder="Correo Electronico">
+                        <input type="text" name="userName" placeholder="Usuario">
+                        <input type="password" name="password" placeholder="Contraseña">
+                        <input type="submit" name="submit" value="Ingresar" onclick="ingresarLocalS(this.form.userName.value, this.form.password.value);">
+                    </form>
+                </div>
+            </div>
+            
+        </main>
+        <CENTER>
+                <BR><A href="recordar.html">Click ac&aacute; por si se te olvid&oacute; la contrase&ntilde;a</A>
+        </CENTER>
+    </div>
 </body>
 </html>
