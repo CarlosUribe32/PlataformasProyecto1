@@ -27,7 +27,7 @@ a:hover{
     transition: all 1s ease-in-out;
     color: aqua;
 }
-.mainContainer{
+.contenedorPrincipal{
     background-image: url(../img/disco.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -61,14 +61,14 @@ a:hover{
     background-color: aquamarine;
 }
 
-.singIn{
+.inicio{
     margin-top: 10%;
 }
-.tableSing{
+.inicioTable{
     background-color: azure;
 }
 
-.profile{
+.perfil{
     width: 200px;
     height: 200px;
     margin-left: 2%;
@@ -77,7 +77,7 @@ a:hover{
     -webkit-transition: all 1s;
     -o-transition: all 1s;
 }
-.profile2{
+.perfil2{
     width: 600px;
     height:700px;
 }
@@ -98,7 +98,7 @@ a:hover{
     -webkit-transition: all 1s;
     -o-transition: all 1s;
 }
-.profile:hover{
+.perfil:hover{
     border-radius:50%;
     -webkit-border-radius:50%;
     box-shadow: 0px 0px 15px 15px #ec731e;
