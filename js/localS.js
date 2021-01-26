@@ -5,12 +5,12 @@ function guardarLocalS(email, username, pass){
     }
     var a = localStorage.getItem(email);
     if(a != null){
-        alert("Este correo ya esta resgistrado");
+        alert("Este correo ya esta registrado");
         return;
     }
     a = localStorage.getItem(username);
     if(a != null){
-        alert("Este usuario ya esta resgistrado");
+        alert("Este usuario ya esta registrado");
         return;
     }
     localStorage.setItem(email, username);
