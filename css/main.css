@@ -116,10 +116,11 @@ a:hover{
 .contenedorAcerca{
     display: flex;
     margin-left: 50px;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 .descripcionAcerca{
     margin-top: 80px;
+    margin-left: 40px;
 }
 
 .todo{
@@ -133,7 +134,7 @@ main{
     width:100%;
     padding: 20px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 .contenedor__todo{
     width: 100%;
@@ -254,4 +255,42 @@ main{
     .contenedor__login-register form{
         position: relative;
     }
+    .caja__traseraAbout{
+        max-width: 350px;
+        height: 300px;
+        flex-direction: column;
+        margin: auto;
+    }
+    .caja__traseraAbout div{
+        margin:0px;
+        position: absolute;
+    }
+}
+
+.caja__traseraAbout{
+    width:100%;
+    padding:10px 20px;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background-color: rgb(168, 255, 146);
+
+}
+.caja__traseraAbout button{
+    padding: 10px 40px;
+    border: 2px solid rgba(1, 99, 42, 0.589);
+    background: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgba(1, 99, 42, 0.589);
+    outline: none;
+    transition: all 300ms;
+}
+.caja__traseraAbout button:hover{
+    background:rgba(1, 99, 42, 0.589);
+    color:  rgb(168, 255, 146);
+}
+.caja__traseraAbout div button{
+    margin-top: 30px;
 }
