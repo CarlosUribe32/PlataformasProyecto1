@@ -1,9 +1,15 @@
-document.getElementById("SiguienteInfo1").addEventListener("click", infoPag);
-document.getElementById("SiguienteInfo2").addEventListener("click", infoYo);
+window.onload = carga();
+var acerca;
+var contenedorAcerca;
+var contenedorAcerca2;
 
-var acerca = document.querySelector(".acerca");
-var contenedorAcerca = document.querySelector(".contenedorAcerca");
-var contenedorAcerca2 = document.querySelector(".contenedorAcerca2");
+function carga(){
+    document.getElementById("SiguienteInfo1").addEventListener("click", infoPag);
+    document.getElementById("SiguienteInfo2").addEventListener("click", infoYo);
+    acerca = document.querySelector(".acerca");
+    contenedorAcerca = document.querySelector(".contenedorAcerca");
+    contenedorAcerca2 = document.querySelector(".contenedorAcerca2");
+}
 
 function infoPag(){
     console.log("Boton execute");
