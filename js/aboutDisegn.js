@@ -1,4 +1,4 @@
-window.onload = carga();
+window.onload = carga;
 var acerca;
 var contenedorAcerca;
 var contenedorAcerca2;

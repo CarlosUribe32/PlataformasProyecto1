@@ -1,4 +1,4 @@
-window.onload = carga();
+window.onload = carga;
 
 var contenedor_login_register;
 var formulario_login;
